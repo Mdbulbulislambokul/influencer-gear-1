@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-emphasis: none;
+    list-style: none;
+    
+    
+}
+.nav-bar{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+   padding-left: 140px;
+}
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .nav ul{
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.width img{
+    margin-left: 340px;
+    padding-top: -330px;
+}
+ .main-section{
+    margin-top: 145px;
+    margin-left: 133px;
+    color: #3A3A3A;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 134.615% */
+ }
+ main button{
+    border-radius: 8px;
+    background: #E02C6D;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+ }
+
+ .img-container{
+    margin-left: 700px;
+    margin-top: -350px;
+ }
+ .conten-img{
+    width: 440px;
+    height: 414px;
+    margin-left: 720px;
+    margin-top: -455px;
+ }
+
+
+ .img-container-text{
+ margin-top: 100px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-right: 140px;
+  
+ }
+ .img-container-text img{
+    row-gap: 20px;
+ }
+
+.nav-section-text{
+    text-align: center;
+    margin-top: 134px;
+}
+ .section-nav-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: 256px;
+   margin-left: 158px;
+   margin-right: 15px;
+   margin-top: 20px;
+   border-radius: 5px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    gap: 30px;
+    border-radius: 5px;
+    background: #FFFfff;
+    box-shadow: 0px 0px 655540px 960px rgba(0, 0, 0, 0.03);
+    
+ }
+ .section-ses-bar{
+    margin-top: 1100px;
+    margin-left: 160px;
+ }
+ .my-div-section{
+    margin-left: 500px;
+    margin-top: -200px;
+ }
+ .btn-nesw{
+    margin-top: 20px;
+    padding: 10px;
+    margin: 60x;
+    font-size: 25;
+    border-radius: 5px;
+    background-color: rgb(225, 37, 37);
+    border: none;
+ }
+ .footer-section{
+    text-align: center;
+    background-color: #0A0826;
+    margin-top: 100px;
+    padding: 50px;
+   color: white;
+ }
