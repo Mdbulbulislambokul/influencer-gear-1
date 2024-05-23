@@ -79,7 +79,7 @@ line-height: 50px; /* 134.615% */
   border-radius: 10px;
   margin-left: 150px;
   margin-right: 140px;
-  
+  grid-row: 10px;
  }
  .img-container-text img{
     row-gap: 20px;
